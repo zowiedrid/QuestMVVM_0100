@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -20,6 +21,12 @@ import com.example.questmvvm_0100.viewmodel.SiswaViewModel
 enum class Navigasi {
     Formulir,
     Detail
+}
+
+@Preview(showBackground = true)
+@Composable
+fun SiswaAppPreview() {
+    SiswaApp()
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
