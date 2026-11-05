@@ -1,4 +1,7 @@
 package com.example.questmvvm_0100.model;
 
-public class Siswa {
+data class Siswa {
+    val nama : String = "",
+    val alamat : String = "",
+    val gender : String = ""
 }
